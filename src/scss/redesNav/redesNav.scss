@@ -1,0 +1,19 @@
+ul:nth-child(1), ul{
+    list-style: none;
+    padding-left: 0px !important;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+
+    & > li{
+    
+        i {
+            color: #05365b !important;
+            border-color: #05365b !important;
+            font-size: 1.25rem;
+        }
+    }
+
+}

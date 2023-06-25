@@ -1,0 +1,42 @@
+#title-notice{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 55px;
+    font-family: "duplicate_ionicbold", Georgia, "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+    display: inline;
+    padding: 4px 0px 9px;
+    background: rgb(0, 114, 172) !important;
+    box-shadow: rgb(0, 114, 172) 17px 0px 0px 0px, rgb(0, 114, 172) -17px 0px 0px 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #detail{
+        & > .detail-row{
+            margin-top: 10vh !important;
+    
+            & .col-12{
+                div.position-absolute{
+                    width: 85% !important;
+                    margin-left: 10px;
+                }
+            }
+        }
+    
+        & > .row.my-5{
+            margin-top: 5rem !important;
+    
+            & img{
+                display: none;
+            }
+        }
+    
+        #title-notice{
+            font-size: 1rem;
+            line-height: 10px;
+            margin-left: 17px;
+        }
+    }
+    
+}

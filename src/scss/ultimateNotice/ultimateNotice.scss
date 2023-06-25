@@ -1,0 +1,20 @@
+.card{
+    border: none !important;
+    max-width: 100% !important;
+
+    & .card-header, & .card-body{
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        margin-inline: 0.5rem;
+    }
+
+    & .card-header{
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ultimate-row{
+        margin-top: 10vh !important;
+    }
+}

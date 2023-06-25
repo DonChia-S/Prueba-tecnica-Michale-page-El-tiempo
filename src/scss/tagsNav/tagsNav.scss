@@ -1,0 +1,18 @@
+div.container-fluid{
+    & > nav{            
+        & > ul{
+            margin-block: 2vh !important;
+            padding-bottom: 0px !important;
+
+            & > li {
+                & > a{
+                    color: #000 !important;
+                    font-size: .7rem !important;
+                    font-weight: 700 !important;
+                    text-decoration: none;
+                    padding-right: 1.15rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+
+$primary: #1268a7;
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+main{
+    height: 110vh;
+    padding-inline: 15vh;
+}
+
+#suscription-badge{
+    font-size: 0.5rem;
+    border-radius: 0px !important;
+    transform: skew(-10deg, 0deg);
+
+    & > *{
+        transform: skew(10deg, 0deg);
+    }
+}
+
+a#btn-what{
+    position: fixed !important;
+    bottom: 5vh;
+    right: 5vh;
+    font-size: 2rem !important;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        height: 160vh !important;
+    }
+
+    a#btn-what{
+        display: none;
+    }
+}
